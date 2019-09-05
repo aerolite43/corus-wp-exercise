@@ -1,4 +1,47 @@
 /*
  Theme Name:   Corus WordPress Exercise
  Version:      1.0.2
-*/
+*/		
+
+.slick-track {
+    display: flex;
+}
+
+.slick-track {
+    cursor: -webkit-grab; cursor: grab;
+}
+.slick-track .slick-slide {
+	display: flex;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.slick-dots {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-dots li {
+    list-style-type: disc;
+    color: black;
+    font-size: 40px;
+}
+
+.slick-dots li.slick-active {
+    color: orange;
+}
+
+
+.slick-dots button {
+    color: transparent;
+    border: none;
+    background-color: transparent;
+}
+.slick-slide img {
+  height: calc(50vh - 100px);
+  width: auto;
+  margin: 0 auto; /* it centers any block level element */
+}
